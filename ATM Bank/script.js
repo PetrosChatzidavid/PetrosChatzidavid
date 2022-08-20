@@ -1,10 +1,5 @@
 'use strict';
-
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
 // BANKIST APP
-
-/////////////////////////////////////////////////
 // Data
 const account1 = {
   owner: 'Jonas Schmedtmann',
@@ -239,7 +234,4 @@ btnSort.addEventListener('click', function (e) {
   sorted = !sorted;
 });
 
-
-
-const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
-
+// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
