@@ -1,0 +1,461 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+  text-decoration: none !important;
+}
+a:visited {
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+a:active {
+  text-decoration: none !important;
+}
+
+/* p */
+p {
+  font-size: 14px;
+}
+
+.logo {
+  color: #00aec5;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.navbar ul li a {
+  font-size: 15px;
+  font-weight: bold;
+}
+.navbar ul li a:hover {
+  color: #000000 !important;
+}
+/* HEADER START */
+.nav-top {
+  background-color: #f4f4f4;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.navbar {
+  padding: 0 !important;
+}
+.border-header {
+  border-left: #00adbb solid 1px;
+  border-right: #00adbb solid 1px;
+  height: 2.8rem;
+}
+
+.btn-header {
+  padding: 10px 25px 10px 25px;
+  border: none;
+  background-color: #00adbb;
+  color: white;
+  font-size: 13px;
+}
+.btn-header-sec {
+  padding: 10px 25px 10px 25px;
+  border: none;
+  background-color: #3b5b6b;
+  color: white;
+  font-size: 13px;
+}
+
+/* HEADER END */
+
+/* CAROUSEL START */
+
+.title-carousel-small-screen {
+  width: 100%;
+  font-size: 50px;
+  line-height: 1.07;
+}
+.text-small-screen {
+  display: none;
+}
+.hidden-courouses-small-screen {
+  display: none;
+}
+.carousel-item {
+  min-height: 388px;
+}
+.carousel-image-1 {
+  width: 100%;
+  background: url("../img/hp_carousel_05_desktop.jpg") 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url("../img/carousel_01.jpg") 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url("../img/carousel_02.jpg") 50% 0 no-repeat;
+  background-size: cover;
+}
+.carousel-image-4 {
+  background: url("../img/carousel_03.jpg") 50% 0 no-repeat;
+  background-size: cover;
+}
+.title-carousel {
+  width: 50%;
+  font-size: 50px;
+  line-height: 1.07;
+}
+.title-carousel-last {
+  width: 50%;
+  font-size: 65px;
+  line-height: 1.07;
+}
+.text-carousel-last {
+  font-size: 35px;
+}
+/* CAROUSEL END */
+/* TABLE SECTION START */
+nav {
+  width: 100%;
+  font-size: 0;
+}
+.menu-table a:hover {
+  background-color: #00aec5;
+  color: white;
+}
+.menu-table a {
+  font-size: 14px;
+  color: #000000;
+  display: inline-block;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  width: 100%;
+}
+.navbar-brand {
+  text-align: none !important;
+}
+.border-dec {
+  border-left: #00adbb solid 1px;
+  border-right: #00adbb solid 1px;
+  padding-top: 0.8rem;
+  height: 2.8rem;
+}
+
+.border-left-right {
+  border-left: #00adbb solid 1px;
+}
+.border-last {
+  border-left: #00adbb solid 1px;
+}
+.operations__tab--active {
+  background-color: #00adbb;
+  color: white !important;
+}
+.operations__content {
+  display: none;
+}
+.operations__content--active {
+  display: block;
+}
+.menu-table a:nth-child(1) {
+  width: 15%;
+}
+.menu-table a:nth-child(2) {
+  width: 14%;
+}
+.menu-table a:nth-child(3) {
+  width: 14%;
+}
+.menu-table a:nth-child(4) {
+  width: 14%;
+}
+.menu-table a:nth-child(5) {
+  width: 15%;
+}
+.menu-table a:nth-child(6) {
+  width: 14%;
+}
+.menu-table a:nth-child(7) {
+  width: 14%;
+}
+
+.margin-fix:hover {
+  background-color: #00adbb;
+}
+.table_head_rgb {
+  background-color: #00adbb;
+}
+
+.table_line_rgb {
+  background-color: #f1eeee;
+}
+
+.table_text_rgb {
+  color: #00adbb;
+}
+.con_btn_tab {
+  width: 55%;
+  margin: 0 auto;
+}
+.btn_small {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #7a8080;
+}
+.btn_small:hover {
+  background-color: #616565;
+}
+.text_btn_small {
+  color: #ffffff !important;
+}
+.text_btn_small {
+  color: #ffffff !important;
+}
+
+.float-left-text {
+  display: block;
+  padding-left: 100px !important;
+}
+/* TABLE SECTION END */
+.nav.sticky {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.95);
+  z-index: 100;
+}
+.hgt-btm {
+  padding-top: 8rem;
+}
+/* section 1 start */
+.section1 {
+  background-color: #ffffff;
+  font-size: 14px;
+}
+.border-line {
+  width: 6rem;
+  margin: 0 auto;
+  border-bottom: #00aec5 solid 2px;
+}
+
+.box-line {
+  width: 100%;
+  border-bottom: #00aec5 solid 2px;
+}
+
+.btn-color {
+  border: 0;
+  background-color: #00aec5 !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
+}
+.btn-color:hover {
+  background-color: #148394 !important;
+  color: #ffffff !important;
+}
+
+.btn-color_2 {
+  font-size: 16px !important;
+  border: #111 solid 1px !important;
+}
+.btn-color_2:hover {
+  background-color: #404545 !important;
+  color: #ffffff !important;
+  border: 0;
+}
+
+.btn-blue-second {
+  border: 1px solid #111;
+  padding: 17px 50px 17px;
+}
+/* section 1 End */
+/* SECTION 2 START */
+.section2 {
+  background-color: #ebebeb;
+}
+.title_color {
+  font-size: 25px;
+  color: #00aec5;
+}
+.btn-sec-2 {
+  width: 50% !important;
+}
+.btn-sec-2 i {
+  color: #00aec5;
+}
+.btn-sec-2:hover {
+  color: #3c3e3e;
+}
+.icons-fix i {
+  color: black;
+  font-size: 2rem;
+  margin-right: 5px;
+}
+
+/* SECTION 2 END */
+
+/* SECTION 2 START */
+.image-cover {
+  position: relative;
+  background: url(/img/img-trading-video.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  min-height: 249px;
+  width: 100%;
+}
+.insite--btn {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  width: 60%;
+  padding: 20px 0px 20px 0 !important;
+  border: rgb(255, 255, 255) solid 1px !important;
+  color: white !important;
+}
+
+.insite--btn:hover {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 0;
+}
+/* SECTION 2 END */
+
+/* SECTION 4 START */
+.section-four {
+  background-color: #ebebeb;
+  padding: 24px 0 24px;
+}
+input {
+  width: 100%;
+  background-color: white !important;
+}
+
+.btn-primary-bg {
+  background-color: #00adbb !important;
+  color: white !important;
+}
+
+/* SECTION 4 END */
+
+/* SECTION 5 STAR */
+.section-five {
+  background-color: #394049;
+  padding: 30px;
+}
+.section-five i {
+  font-size: 30px;
+  color: #00adbb;
+}
+/* SECTION 5 END */
+/* SECTION 6 START */
+.section-six {
+  background-color: #262a30;
+  color: #fff;
+}
+.btn-css-footer1 {
+  border: 0;
+  background-color: #00aec5 !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  padding: 10px 20px !important;
+}
+.btn-css-footer1:hover {
+  background-color: #0194b8 !important;
+  color: #ffffff !important;
+}
+.btn-css-footer {
+  border: 0;
+  background-color: #00718d !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  padding: 10px 20px !important;
+}
+.btn-css-footer:hover {
+  background-color: #0194b8 !important;
+  color: #ffffff !important;
+}
+/* SECTION 6 END */
+
+/* TABLET */
+@media (max-width: 992px) {
+  nav ul {
+    padding-bottom: 20px;
+  }
+  .nav-link {
+    text-align: center;
+  }
+  .hidden-menu-table {
+    display: none;
+  }
+  .hidden-courouses-small-screen {
+    display: block;
+  }
+  .text-small-screen {
+    display: block;
+
+    background-color: #001b1e;
+    color: #fff;
+    margin: 0 -15px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 18px;
+  }
+  /* SECTION 4 START*/
+  .margin-bottom-css {
+    margin-bottom: 15px;
+  }
+  /* SECTION 4 END*/
+
+  .text-md-center {
+    text-align: center;
+  }
+  /* SECTION 6 END */
+}
+
+/* SECTION 7 START */
+.section-seven {
+  background-color: #262a30;
+  color: white;
+}
+.footer-rgb {
+  color: #00adbb;
+}
+/* SECTION 7 END */
+/* MOBILE */
+@media (max-width: 575px) {
+  .nav-link {
+    text-align: center;
+  }
+  /* section 3 start */
+  .center-text {
+    text-align: center;
+  }
+
+  .hidden-menu-table {
+    display: none;
+  }
+  /* section 3 end */
+  .hidden-courouses-small-screen {
+    display: block;
+  }
+  .carousel-item {
+    min-height: 488px;
+  }
+  .text-small-screen {
+    display: block;
+
+    background-color: #001b1e;
+    color: #fff;
+    margin: 0 -15px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 18px;
+  }
+  /* SECTION 6 START */
+
+  .text-md-center {
+    text-align: center;
+  }
+  /* SECTION 6 END */
+}
