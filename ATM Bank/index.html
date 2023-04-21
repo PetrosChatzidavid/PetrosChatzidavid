@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>ProBank</title>
+  </head>
+  <body>
+    <div>
+      <div class="rn-gradient-circle"></div>
+      <div class="rn-gradient-circle theme-pink"></div>
+  </div>
+    
+    <!-- NavBar Start -->
+    <div class="log-In">
+     
+      <div class="position-log-in">
+        <div class="logo-text text-center mb-5">
+          Welcome to the <span class="logo-name">ATM</span>Bank
+        </div>
+        <div class="input-box">
+        <form>
+        <input
+          class="main-form-log-in log-in"
+          type="search"
+          placeholder="Username"
+          aria-label="Search"
+        />
+        <input
+          class="main-form-log-in password"
+          type="search"
+          placeholder="Password"
+          aria-label="Search"
+        />
+        <button class="btn-login main-button">Login</button>
+      </form>
+    </div>
+     <div class="info d-flex justify-content-center align-items-center mt-5">
+      <div class="box">
+        <p>Username: pc</p>
+        <p>Password: 1111</p>
+      </div>
+      <div class="box">
+        <p>Username: jw</p>
+        <p>Password: 2222</p>
+      </div>
+     </div>
+    </div>
+
+    
+    </div>
+    <div id="main">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light border-divider">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span class="logo-name">ATM</span>Bank</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>          
+              <button class="btn-logout main-button">Logout</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <h2 class="welcome mt-3">Welcome back Name</h2>
+    </div>
+    <!-- NavBar End -->
+
+    <!-- Section One Start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-12 col-sm-12">
+          <div class="contain-amounts mt-3">
+            <div class="deposit d-dep-drow">
+              <h3 class="title-balance">Deposits</h3>
+              <p class="amount-balance total-deposit">$0000</p>
+              <p class="text-balance">Total Balance</p>
+            </div>
+            <div class="withdrawal d-dep-drow">
+              <h3 class="title-balance">Withdrawals</h3>
+              <p class="amount-balance total-withdrawal">$0000</p>
+              <p class="text-balance">Out</p>
+            </div>
+          </div>
+
+          <!-- Buttons Transfer / Add Monery-->
+          <div class="buttons mt-3">
+            <button type="button" class="btn-transfer open-modal">Transfer</button>
+            <button type="button" class="btn-add-money open-modal">Add Money</button>
+          </div>
+          <!-- Amoutns List -->
+          <div class="deposit--scrolling">
+            <div class="deposit-show">
+              <p class="d-main-list d-cur-amount">Amount</p>
+              <p class="d-main-list d-cur-amount total-amount">$0000</p>
+              <p class="d-main-list d-cur-date">Date</p>
+              <p class="d-main-list d-cut-time">Time</p>
+             
+            </div>
+            <div class="scroll-deposits">
+              <div class="deposit-scroll"></div>    
+            </div>
+         
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 mt-3">
+        <div class="chart">
+          
+        <div class="mb-5" id="chart"></div>
+       
+        <div class="border-bottom mb-5"></div>
+        <div class="mx-1" id="line-chart"></div>
+      </div>
+        
+      </div>
+    </div>
+
+    <!-- Section One End -->
+    <!-- windows -->
+    <div class="window-transfer hidden">
+      <div class="icon-close-first" type="button">✖</div>
+      <div class="middle-items">
+        <h2 class="title-transfer">Transfer Money</h2>
+        <input
+          type="text"
+          placeholder="Name"
+          class="mb-3 name-transfer"
+          id="fname"
+          name="fname"
+        /><br />
+        <input
+          type="number"
+          class="value-tranfer-money"
+          placeholder="Amount"
+          id="lname"
+          name="lname"
+        />
+      </div>
+      <div class="d-flex justify-content-center align-content-center ">
+      <button type="button" class="  send-money btn-loan ">Transfer</button>
+    </div>
+    </div>
+
+    <div class="window-add-money hidden">
+      <div class="icon-close-second" type="button">✖</div>
+      <div class="middle-items">
+        <h2 class="title-transfer">Add Money</h2>
+        <input
+          type="number"
+          class="add-money"
+          placeholder="Amount"
+          id="lname"
+          name="lname"
+        />
+      </div>
+      <div class="d-flex justify-content-center align-content-center ">
+      <button type="button" class="btn-loan-money btn-loan">Add</button>
+      </div>
+      
+    </div>
+    </div>
+
+    <!-- --------------------- -->
+    <!-- --------------------- -->
+    <!-- --------------------- -->
+    <!-- --------------------- -->
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="script.js"></script>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
